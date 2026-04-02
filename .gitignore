@@ -1,0 +1,23 @@
+# Ignore system files
+.DS_Store
+
+# Ignore build and dependency folders
+node_modules/
+dist/
+build/
+bin/
+obj/
+
+# Ignore environment variables and secrets
+.env
+*.pem
+*.key
+
+# Ignore log files and temporary files
+*.log
+*.tmp
+*.swp
+
+# Ignore IDE-specific settings
+.idea/
+
