@@ -1,0 +1,50 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+}
+
+.topbar {
+    /*border: 2px solid black;*/
+    background: #efefef;
+    height: 50px;
+    padding: 0 250px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 13px;
+}
+
+.topbar_main {
+    /*border: 2px solid black;*/
+    display: flex;
+    align-items: center;
+}
+
+.topbar_city {
+    /*border: 2px solid black;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+    color: #4e4e4e;
+}
+
+.spacer {
+    /*border: 2px solid black;*/
+    width: 100px;
+}
+
+.topbar_nav > a {
+    /*border: 2px solid black;*/
+    display: inline-flex;
+    align-items: center;
+    text-decoration: none;
+    padding-right: 20px;
+    color: #4e4e4e;
+}
+
+.topbar_info {
+    display: flex;
+    align-items: center;
+    color: #7f7f7f;
+}
