@@ -112,6 +112,14 @@ body {
     gap: 10px;
 }
 
+.counter {
+    background: #ff0007;
+    padding: 3px 6px;
+    font-size: 13px;
+    border-radius: 100%;
+    color: #ffffff;
+}
+
 .categories {
     /*border: 2px solid #c60000;*/
     padding: 0px 250px;
